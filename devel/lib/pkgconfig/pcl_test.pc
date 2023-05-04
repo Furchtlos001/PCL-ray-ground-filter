@@ -1,0 +1,8 @@
+prefix=/home/tianxl/learning_3d/pcl/pcl_ws/devel
+
+Name: pcl_test
+Description: Description of pcl_test
+Version: 0.0.1
+Cflags: -I/home/tianxl/learning_3d/pcl/pcl_ws/src/pcl_test/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs pcl_ros
